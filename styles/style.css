@@ -368,6 +368,7 @@
             width: 100%;
             height: 175px;
             margin: 0 0 50px;
+            resize: none;
         }
         
         .order__button {
