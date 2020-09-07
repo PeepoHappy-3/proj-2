@@ -260,18 +260,22 @@
         
         .work__video {}
         
-        .examples__list {
-            display: flex;
-            flex-wrap: wrap;
-            list-style-type: none;
+        .examples {
             margin: 0;
             padding: 0;
         }
         
-        .examples__item {
+        .examples__list {
             margin: 0;
             padding: 0;
-            flex: 1 1 25%;
+            list-style-type: none;
+            display: grid;
+            grid-template: 1fr 1fr/ 1fr 1fr 1fr 1fr;
+            box-sizing: border-box;
+            grid-row-gap: 0;
+        }
+        
+        .examples__item {
             position: relative;
         }
         
@@ -291,6 +295,8 @@
             background-repeat: no-repeat;
             background-position: 50% 50%;
         }
+        
+        .examples__link {}
         
         .examples__overlay:hover {
             opacity: 0.8;
