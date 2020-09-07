@@ -272,11 +272,14 @@
             display: grid;
             grid-template: 1fr 1fr/ 1fr 1fr 1fr 1fr;
             box-sizing: border-box;
-            grid-row-gap: 0;
+            row-gap: 0;
         }
         
         .examples__item {
+            margin: 0;
+            padding: 0;
             position: relative;
+            height: 100%;
         }
         
         .examples__image {
