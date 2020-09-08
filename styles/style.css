@@ -28,7 +28,6 @@
         
         .button:hover {
             background: #5584bd;
-            color: #FFFFFF;
         }
         
         .section__title {
@@ -101,6 +100,10 @@
         
         .header-top__link_active {
             color: #34547A;
+        }
+        
+        .header-top__link:hover {
+            color: #186dd4;
         }
         
         .header-body {
@@ -406,7 +409,7 @@
             font-weight: 500;
             font-size: 21px;
             line-height: 25px;
-            margin: 0;
+            margin: 0 0 20px 0;
             padding: 0;
         }
         
