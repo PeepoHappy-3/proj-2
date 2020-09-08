@@ -26,6 +26,11 @@
             cursor: pointer;
         }
         
+        .button:hover {
+            background: #5584bd;
+            color: #FFFFFF;
+        }
+        
         .section__title {
             text-align: center;
             font-style: normal;
