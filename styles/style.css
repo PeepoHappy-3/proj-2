@@ -27,7 +27,7 @@
         }
         
         .button:hover {
-            background: #5584bd;           
+            background: #5584bd;
         }
         
         .section__title {
@@ -100,6 +100,10 @@
         
         .header-top__link_active {
             color: #34547A;
+        }
+        
+        .header-top__link:hover {
+            color: #186dd4;
         }
         
         .header-body {
