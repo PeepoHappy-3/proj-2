@@ -401,12 +401,16 @@
             font-weight: 500;
             font-size: 21px;
             line-height: 25px;
+            margin: 0;
+            padding: 0;
         }
         
         .footer__text {
             font-weight: normal;
             font-size: 13px;
             line-height: 21px;
+            margin: 0;
+            padding: 0;
         }
         
         .footer__social-links {
