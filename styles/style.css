@@ -30,7 +30,7 @@
             background: #5584bd;
         }
         
-        .section__title {
+        .title {
             text-align: center;
             font-style: normal;
             font-weight: 500;
@@ -40,7 +40,7 @@
             margin: 0 0 50px;
         }
         
-        .section__subtitle {
+        .subtitle {
             font-weight: normal;
             font-size: 16px;
             line-height: 26px;
@@ -315,7 +315,7 @@
         
         .partners {
             display: flex;
-            margin: 0;
+            margin: 0 auto;
             list-style-type: none;
             justify-content: space-between;
             padding: 72px 0 100px;
